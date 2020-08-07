@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><FORMS></title>
+    <style>
+        .container{
+            width: 800px;
+            height: 700px;
+            margin: 50px 100px 100px 300px;
+            box-shadow: 1px 1px 1px 1px;
+            background-color: aliceblue;
+        }
+
+        h1{
+            text-align: center;
+        }
+       
+        .form{
+            display: flex;
+            flex-direction: column;
+            margin: 50px 25px 25px 25px;
+            align-content: center;
+        }
+        #fname{
+            margin: 0px 25px 0px 25px;
+            height: 20px;
+            border-color: #eaf1eac0;
+            border: 2px;
+            align-items: flex-start;
+            text-align: left;
+            border-radius: 2px;
+            align-content: left;
+        }
+        .fname{
+            margin: -24px 25px 0px 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            height: 30px;
+        }
+        .button{
+            margin:0px 0px 0px 40px; 
+            padding: 5px;
+            background-color: rgba(58, 206, 58, 0.986);
+            border: 0px;
+            color: white;
+        }
+        .submit{
+            background-color: rgb(25, 199, 25, 0.644);
+            border: 0px;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .Subject{
+            height: 150px;
+            border-radius: 2px;
+            margin: -24px 25px 0px 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+    </style>
+</head>
+<body> 
+    <div class="container">
+            <h1>CONTACT FORM</h1>
+            <form>
+                <div class = "form">
+                <label class="fname">First name</label><br><br>
+                <input type="text" class="fname" placeholder="Your name...."><br>
+                </div>
+
+              <div class = "form">
+                <label class="fname">Last name</label><br><br>
+                <input type="text" class="fname" placeholder="Your last name..."><br>
+              </div>
+
+               <div class = "form"><br>
+                <label class="fname">country</label><br><br>
+            <select class="fname"> 
+                <option value="Australia">Australia</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Portugal">Portugal</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+            </select></br>
+        </div>
+            <div class="form">
+                <label class="fname">Subject </label><br>
+                <textarea class="Subject">Write something</textarea>
+            </div>
+            
+            <div class="input_button">
+                <button class="button">Submit</button>
+            </div>   
+        </form>
+    </div>
+    
+</body>
+</html>
